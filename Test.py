@@ -1,4 +1,4 @@
-from com.jiyun.test import stu_info,zhang_san;
+﻿from com.jiyun.test import stu_info,zhang_san;
 
 stu=stu_info.StuInfo("王五",56);
 # stu1=stu_info.StuInfo("赵六",23);
@@ -28,3 +28,6 @@ zhang_san_info.dis_stu_info();
 print(issubclass(zhang_san.ZhangSan,stu_info.StuInfo));
 
 print(isinstance(zhang_san_info,stu_info.StuInfo))
+
+print(isinstance(zhang_san_info,stu_info.StuInfo))
+
